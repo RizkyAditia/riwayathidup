@@ -8,17 +8,16 @@ hr {
     border-top: 4px solid;
 }
 .thumbnail a>img, .thumbnail>img {
-    height: 200px;
-    width: 150%;
+    height: 600px;
+    width: 100%;
     
 }
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     .thumbnail a>img, .thumbnail>img {
-        height: 400px;
+        height: 100%;
         width: 100%;
     }
-}
-
+} 
 .p {
     margin: 20px;
 }
